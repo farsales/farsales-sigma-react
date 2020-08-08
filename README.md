@@ -15,16 +15,16 @@ npm install --save farsales-sigma-react
 ```jsx
 import React, { Component } from 'react'
 
-import {Paragraph} from 'farsales-sigma-react'
+import { Paragraph, Body, Headline, Button } from 'farsales-sigma-react'
 import 'farsales-sigma-react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <Paragraph text="Hello world!" />
+    return <Paragraph>Hello World!</Paragraph>
   }
 }
 ```
 
 ## License
 
-MIT © [https://github.com/farsales/farsales-sigma-react](https://github.com/https://github.com/farsales/farsales-sigma-react)
+MIT © [https://github.com/farsales/farsales-sigma-react](https://github.com/farsales/farsales-sigma-react)
