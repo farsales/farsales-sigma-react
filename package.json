@@ -1,6 +1,6 @@
 {
   "name": "farsales-sigma-react",
-  "version": "1.0.14",
+  "version": "1.0.19",
   "description": "Farsales UI Library For React",
   "author": "https://github.com/farsales/farsales-sigma-react",
   "license": "MIT",
@@ -45,9 +45,14 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "lodash.omit": "^4.5.0"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
 }
